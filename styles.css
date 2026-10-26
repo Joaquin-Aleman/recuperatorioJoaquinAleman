@@ -1,0 +1,50 @@
+/* Color primario: firebrick o #B22222
+Color gris oscuro: #dddddd
+Color gris claro: #fbfbfb
+Color secundario: #fbeaea */
+:root {
+    --color-primario:#B22222;
+    --color-gris-oscuro:#dddddd;
+    --color-gris-claro:#fbfbfb;
+    --color-secundario:#fbeaea,
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-gris-claro);
+}
+
+header , footer {
+    text-align: center;
+    background-color: var(--color-gris-oscuro);
+}
+
+main {
+    padding: 20px;;
+}
+/*falta producto container*/
+
+
+/*barra horizontal*/
+.barra-horizontal {
+    border: 1px solid var(--color-gris-oscuro);
+}
+
+#buscador {
+    border: 1px solid var(--color-gris-oscuro);
+    padding: 5px;
+}
+/*falta tarjeta producto*/
+/* falta tarjeta prdcto btoton 
+precio*/
+
+aside {
+    background-color: var(--color-gris-claro);
+    border: 1px solid var(--color-gris-oscuro);
+    padding: 10px;
+    margin: 10px;
+}
+
+

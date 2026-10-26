@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burguer House</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Parcial 1 - 131</h1>
+    </header>
+
+    <main>
+        <!-- TITULO -->
+        <div class="header-tienda">
+            <h2 class="titulo-principal">Burguer House</h2>
+            <span id="contador-carrito"> carrito:0</span>
+        </div>
+
+        <!-- HORIZONTAL -->
+        <hr class="barra-horizontal">
+
+        <!-- CONTROLES -->
+        <div class="controles-filtro">
+            <div class="inputs-categorias">
+                <label><input type="radio" name="categoria" value="Todas">Todas</label>
+                <label><input type="radio" name="categoria" value="Clasicas">Clasicas</label>
+                <label><input type="radio" name="categoria" value="Especiales">Especiales</label>
+                <label><input type="radio" name="categoria" value="Combos">Combos</label>
+            </div>
+            
+            <!-- BUSCADOR -->
+            <input type="text" id="buscador" placeholder="Buscar productos">
+            
+            <!-- ORDEN -->
+            <select id="orden-precio">
+                <option value="">Ordenar por precio</option>
+                <option value="menor">Menor precio</option>
+                <option value="mayor">Mayor precio</option>
+            </select>
+        </div>
+
+
+        <!-- CATALOGO PRODUCTOS -->
+        <section id="products-container">
+            <!-- Un section vacío con id products-container (posteriormente lo llenarán desde JavaScript) -->
+            
+        </section>
+
+    </main>
+
+
+    <!-- MI CARRITO -->
+    <aside>
+        <h2>Mi carrito</h2>
+        <ul id="cart-list">
+            <!-- una lista vacía con id cart-list, -->
+        </ul>
+        <div id="cart-total"> Total Carrito:$0</div>
+        <button id="vaciar-carrito">VACIAR CARRITO</button>
+    </aside>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Joaquin Horacio Aleman</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
